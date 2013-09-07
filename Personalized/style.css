@@ -1,0 +1,217 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Header 
+2. Navigation 
+3. Intro 
+4. Main Content
+5. Footer / #footer
+-------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[1. Header - header | #wings ]
+*/
+header {
+	background-color: #151724;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -20px;
+	padding: 30px;
+	height: 170px;
+}
+/*-------------------
+	#wings = HR lines
+*/
+#wings_left {
+	margin-top: -45px;
+
+}
+
+#wings_left_top {
+	width: 70px;
+	margin-left: 40%
+}
+
+#wings_left_bottom {
+	color: gray;
+	width: 70px;
+	margin-left: 40%;
+}
+
+
+#wings_right {
+	margin-top: -25px;
+}
+#wings_right_top {
+	color: gray;
+	width: 70px;
+	margin-left: 56.5%;
+}
+
+#wings_right_bottom {
+	color: gray;
+	width: 70px;
+	margin-left: 56.5%
+}
+
+/*---------------------------------------------
+[2. Navigation - nav| .navliinks |.personalize]
+*/
+
+nav {
+	width: 630px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+	background-color: #f4c919;
+
+
+}
+/*------------------------------
+	Positions Navbar Into Header
+*/
+div nav {
+	margin-top: -38px;
+}
+
+nav {
+	width: 630px;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+	background-color: #f4c919;
+
+
+}
+
+.navlinks { 				
+	text-align: center;
+}
+
+.navlinks li {
+	font-family: helvetica;
+	padding: 10px;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.navlinks li a {
+	text-decoration: none;
+	color: black;
+
+}
+
+.navlinks li a:hover {
+	color: gray;
+}
+
+.personalize {
+	font-family: Chunkfive;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 3px 3px #9E9E9E;
+
+}
+/*-----------------------------------------
+[3. Intro - #intro| h1, h3]
+*/
+#intro h1 {
+	text-align: center;
+	font-family: Chunkfive;
+	color: #393339;
+	font-size: 80px;
+	text-shadow: 5px 5px 5px #9E9E9E;
+}
+
+h3 {
+	text-align: center;
+	font-family: Chunkfive;
+	font-size: 25px;
+	color: #393339;
+
+}
+/*-----------------------------
+[4. Main Content - #main_content | h2 | #work_text | .row | #box ]
+*/
+
+#main_content {
+	background-color: #F5F5F5;
+}
+
+h2 {
+	margin-bottom: -27px;
+}
+#work_text {
+	font-family: helvetica;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-bottom: -55px;
+	margin-left: 455px;
+	padding-left: 35px;
+
+}
+
+.row1 {
+	margin-left: 450px;
+	font-family: helvetica;
+	position: relative;
+}
+
+.row2 {
+	margin-left: 450px;
+	font-family: helvetica;
+	display: inline-block;
+	position: relative;
+
+}
+
+/*-------------------------------------------------------
+	positions the 260 * 180 box img and p text beneath it
+*/
+#box1 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+#box2 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+#box3 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+#box4 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+#box5 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+#box6 {
+	width: 265px;
+	display: inline-block;
+	padding: 40px;
+}
+
+/*-----------------------------------------
+[5. Footer - #social]
+*/
+
+#social {
+	margin-left: 50px;
+}
+
